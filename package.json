@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-ai-agent",
+  "version": "1.0.0",
+  "description": "Agente de Atendimento com IA para WhatsApp",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.33.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
